@@ -1,0 +1,11 @@
+{
+  "name": "writing",
+  "description": "Citation management and line editing for long-form nonfiction",
+  "version": "0.1.0",
+  "author": {
+    "name": "Glenn Stovall",
+    "url": "https://github.com/GSto"
+  },
+  "homepage": "https://github.com/GSto/GStos-claude-skills",
+  "license": "MIT"
+}
