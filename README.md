@@ -22,7 +22,7 @@ To pin it to a single project instead of your whole account, add `--scope projec
 
 ### `writing`
 
-Two skills for long-form nonfiction.
+Three skills for long-form nonfiction. They divide cleanly: `line-edit` handles how a sentence reads, `cite` handles whether a claim is sourced, `fact-check` handles whether it is true.
 
 **`/writing:cite`** — Chicago Manual of Style (17th ed.) Notes-Bibliography citation management. Audits content files for malformed footnotes, informal inline citations, and uncited claims; reformats footnotes to CMS; keeps a bibliography alphabetized. It never fabricates citation details and never edits without showing the change first.
 
@@ -31,6 +31,10 @@ Assumes a project layout with content files in `content/` and a bibliography at 
 **`/writing:line-edit`** — An opinionated prose style guide. Eleven rules covering intensifying adverbs, hidden verbs, weak verbs, over-emphasis, promotional language, editorializing scaffolding, and uncited attributions of opinion. Includes a copy-paste `grep` that catches the mechanical rules in one pass.
 
 This one is deliberately not neutral. It encodes my taste. Fork it and change the rules rather than arguing with them.
+
+**`/writing:fact-check`** — Verifies factual claims against real sources. Built around one rule: recall proposes, source disposes. Every claim exits as CONFIRMED, CONTRADICTED, or UNRESOLVED, each with a quoted passage and a URL. There is no "probably" — a claim the model merely believes is UNRESOLVED until a source says otherwise.
+
+It exists because the opposite is the default failure mode. Asked to audit citations, a model will helpfully volunteer corrections from memory that read exactly like findings and have not been checked. This skill makes that impossible to do by accident, and `cite` is explicitly barred from doing it at all.
 
 ## License
 

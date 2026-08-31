@@ -101,8 +101,10 @@ Find text patterns that reference sources without footnotes:
 ### 3. Uncited Claims
 Flag statements that make factual claims but lack citations:
 - Statistics, percentages, dollar amounts ("saves $400 million", "74% faster")
-- Claims attributed to vague groups (rule 11 in writing-guidelines.md): "studies show," "research suggests," "industry reports," "experts say"
+- Claims attributed to vague groups (rule 11 of the `line-edit` skill): "studies show," "research suggests," "industry reports," "experts say"
 - Specific factual claims about companies, products, or historical events that a reader might want to verify
+
+**Flag that a claim is unsupported. Do not judge whether it is true.** Noting "this sentence needs a source" is citation work. Deciding the date is wrong or the name is misspelled is fact-checking, and it belongs to the `fact-check` skill, which verifies against real sources instead of recall. If a claim looks wrong to you, say "worth a `fact-check` pass" and move on. Never emit a correction from memory in a citation report — it reads like a finding and it hasn't been checked.
 
 ### Output Format for Scan
 
@@ -177,3 +179,4 @@ When updating references.md:
 6. **Handle the transition gracefully.** The book currently has ~20 footnotes in inconsistent formats. Don't try to fix everything at once. Work file by file when asked.
 7. **Always convert inline links to footnotes.** Markdown links `[text](url)` in prose should always be converted to footnote references. Remove the link syntax, keep the text, and add a `[^N]` marker with a proper CMS footnote definition.
 8. **Always update references.md.** When adding or fixing a footnote, always add the source to `content/references.md` if it isn't already there. Keep entries alphabetized.
+9. **Stay in your lane on truth.** You handle whether a claim is *sourced*. The `fact-check` skill handles whether it is *true*. Never correct a fact from your own knowledge inside a citation report — hand it to `fact-check` instead.

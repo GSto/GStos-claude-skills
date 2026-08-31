@@ -76,7 +76,7 @@ Delete the frame and keep the claim. "It's important to note that bugs compound"
 
 `Industry reports`, `Observers have noted`, `Some people say`, `Some critics argue`, `studies show`, `research suggests`, `experts say`
 
-Either name the source with a real citation (use the `cite` skill) or cut the claim. Do not invent a source.
+Either name the source with a real citation (use the `cite` skill) or cut the claim. Do not invent a source. If you suspect the claim is not merely unsourced but wrong, that is a `fact-check` job, not a line edit.
 
 ## Mechanical pass
 

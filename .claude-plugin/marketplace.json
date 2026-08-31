@@ -1,6 +1,6 @@
 {
   "name": "gstos-claude-skills",
-  "description": "Glenn Stovall's Claude Code skills — writing, editing, and workflow tools used in real projects, packaged to travel between machines.",
+  "description": "Glenn Stovall's Claude Code skills: writing, editing, and workflow tools used in real projects, packaged to travel between machines.",
   "owner": {
     "name": "Glenn Stovall",
     "url": "https://github.com/GSto"
@@ -9,9 +9,16 @@
     {
       "name": "writing",
       "source": "./plugins/writing",
-      "description": "Citation management and line editing for long-form nonfiction",
+      "description": "Citation management, line editing, and fact-checking for long-form nonfiction",
       "category": "writing",
-      "tags": ["writing", "editing", "citations", "chicago-manual-of-style", "prose"]
+      "tags": [
+        "writing",
+        "editing",
+        "citations",
+        "fact-checking",
+        "chicago-manual-of-style",
+        "prose"
+      ]
     }
   ]
 }
