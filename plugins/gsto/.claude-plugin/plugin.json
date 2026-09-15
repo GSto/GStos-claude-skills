@@ -1,0 +1,11 @@
+{
+  "name": "gsto",
+  "description": "Glenn Stovall's workflow tools for Claude Code: research options before committing to a plan",
+  "version": "0.1.0",
+  "author": {
+    "name": "Glenn Stovall",
+    "url": "https://github.com/GSto"
+  },
+  "homepage": "https://github.com/GSto/GStos-claude-skills",
+  "license": "MIT"
+}

@@ -19,6 +19,19 @@
         "chicago-manual-of-style",
         "prose"
       ]
+    },
+    {
+      "name": "gsto",
+      "source": "./plugins/gsto",
+      "description": "Glenn Stovall's workflow tools for Claude Code: research options before committing to a plan",
+      "category": "workflow",
+      "tags": [
+        "workflow",
+        "research",
+        "planning",
+        "options",
+        "claude-code"
+      ]
     }
   ]
 }
